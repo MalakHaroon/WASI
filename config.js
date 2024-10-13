@@ -4,7 +4,7 @@ const toBool = (x) => x === 'true';
 const DATABASE_URL = process.env.DATABASE_URL || './database.db';
 
 module.exports = {
- BOT_INFO: process.env.BOT_INFO || 'wasi;tech;',
+ BOT_INFO: process.env.BOT_INFO || 'Hari;tech;',
  LOGS: toBool(process.env.LOGS) || true,
  SESSION_ID: (process.env.SESSION_ID || '').trim(),
  SUDO: process.env.SUDO || '',
@@ -14,7 +14,7 @@ module.exports = {
  RMBG_KEY: process.env.RMBG_KEY || '',
  BRANCH: 'master',
  WARN_COUNT: 3,
- AUTHOR: process.env.AUTHOR || 'wasi',
+ AUTHOR: process.env.AUTHOR || 'Hari',
  PACKNAME: process.env.PACKNAME || '-md',
  WELCOME_MSG: process.env.WELCOME_MSG || 'Hi @user Welcome to @gname',
  GOODBYE_MSG: process.env.GOODBYE_MSG || '@user It was Nice Seeing you',
